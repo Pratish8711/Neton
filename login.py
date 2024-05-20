@@ -1,25 +1,27 @@
 # Functions
 def signup ()  :
+   global user_name
+   global pass_word
    user_name =  input ("Enter a username ---->")
 
    pass_word = input ("Enter a strong password --->")
 
    while not len (pass_word)>=8 and pass_word.isalnum():
     print ("Please Enter a valid password")
-    pass_word = input ("What do you want to make your password = \n")
+    pass_word = input ("Enter a strong password --->")
 
    else:
       print ("Successful Signup...Redirecting you to Main Page")
       
-def login(user_name , pass_word) :
+def login() :
    username = input ("Enter your username ---->")
 
    password = input ("Enter your password ---->")
 
    if username == user_name and password == pass_word :
-      print ("Welcome")
+      print ("Welcome Access Approved")
    else :
-      print ("Wrong password or username")
+      print ("Wrong password or username Please Retry later")
 
 # Main Codes   
 
