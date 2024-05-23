@@ -46,7 +46,7 @@
 # zfill() =	Fills the string with a specified number of 0 values at the beginning
 
 
-
+# Function is a block of code to perform special task
 ## Def function
 
 # def function_name() :
@@ -61,3 +61,29 @@
 
 # for i in range (10):
 #     add()
+
+
+x = [ 20 , 40 , 50 , 10 , 15]
+def largest(x):
+
+    g = x[0] 
+
+    for number in x:
+        if number > g :
+            g = number
+    return g
+
+x = [20, 40, 50, 10, 15]
+great = largest(x)
+print("The greatest number in the list is:", great)
+
+
+
+# Arguments
+
+# 1) Non Argument 
+
+# 2) Argument with defult value 
+
+# 3)  Positional Argument
+
