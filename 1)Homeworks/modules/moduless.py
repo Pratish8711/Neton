@@ -19,25 +19,25 @@ while b:
 
     num_3 = float (input ("Enter third number --->"))
 
-    # Taking Choice Either To Add , Subtract , Multiply or Divide
 
     choice_1 = input ("""What would you like to perform
                   1)Add --> +
                   2)Subtract --> -
                   3) Mutiply --> *
                   4) Divide --> /""")
+    # Taking Choice Either To Add , Subtract , Multiply or Divide
 
     # Conditional Statement
-    if choice_1.lower() == "add" or choice_1 == 1 or choice_1 == "+" :
-     print ( cal.add())
+    if choice_1.lower() == "add" or choice_1 == "1" or choice_1 == "+" :
+     print ( cal.add(num_1 , num_2 , num_3))
 
-    elif choice_1.lower() == "subtract" or choice_1 == 2 or choice_1 == "-" :
-     print ( cal.sub())
-    elif choice_1.lower() == "mutiply" or choice_1 == 3 or choice_1 == "*" :
-     print ( cal.mutiply())
+    elif choice_1.lower() == "subtract" or choice_1 == "2" or choice_1 == "-" :
+     print ( cal.sub(num_1 , num_2 , num_3))
+    elif choice_1.lower() == "mutiply" or choice_1 == "3" or choice_1 == "*" :
+     print ( cal.mutiply(num_1 , num_2 , num_3))
 
-    elif choice_1.lower() == "divide" or choice_1 == 4 or choice_1 == "/" :
-        print ( cal.division())
+    elif choice_1.lower() == "divide" or choice_1 == "4" or choice_1 == "/" :
+        print ( cal.division(num_1 , num_2))
 
     else:
         print ("Sorry It is Not In The Given Choice Above ")
