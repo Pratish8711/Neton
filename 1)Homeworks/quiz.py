@@ -1,31 +1,47 @@
-count = 0
+# count = 0
 
-print ("This is a Quiz \n")
+# print ("This is a Quiz \n")
 
-print ("This is the first question \n")
+# print ("This is the first question \n")
 
-print ("A) What is the smallest country in this world?\n")
+# print ("A) What is the smallest country in this world?\n")
 
-print ("""1> Nepal         2> USA
-    3> Vatican City  4> India""")
+# print ("""1> Nepal         2> USA
+#     3> Vatican City  4> India""")
 
-while count < 3:
+# while count < 3:
 
-    a = input ()
-    if a == 3:
-        print ("Correct Answer")
+#     a = input ()
+#     if a == 3:
+#         print ("Correct Answer")
         
-        print ("B) How many countries are there in this world?")
+#         print ("B) How many countries are there in this world?")
 
-        print ("""1> 195     2> 200
-                  3> 197     4> 199""")
-        a = input ()
+#         print ("""1> 195     2> 200
+#                   3> 197     4> 199""")
+#         a = input ()
         
-        if a == 1:
-            print ("Right Answer")
-    else :
-        count += 1
+#         if a == 1:
+#             print ("Right Answer")
+#     else :
+#         count += 1
         
-    break
+#     break
 
 
+d =  {
+    'name' : "Pratish"
+
+}
+
+
+d.update ({'names' : "Kundan"})
+
+for x,y in d.items() :
+    print (x,y)
+
+
+d.pop ('names')
+
+for x,y in d.items() :
+    print (x,y )
