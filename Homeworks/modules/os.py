@@ -32,10 +32,29 @@ import os
 
 # file = "Test"
 
-location = "E:/Python-Codes/Neton"
+# location = "E:/Python-Codes/Neton"
 
-path = os.path.join (location)
+# path = os.path.join (location)
 
 # os.rmdir (path)
 
-print (os.listdir(path))
+# print (os.listdir(path))
+
+
+# file = open ("file1.txt" , "w")
+
+# file.write("Hell im going to die")
+
+# file.write ("")
+
+# file.close
+
+# file = open ("E:/Python-Codes/Neton/file1.txt")
+
+# print (file.read())
+
+# file.close()
+
+# os.remove ("file1.txt")
+
+

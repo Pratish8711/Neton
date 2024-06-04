@@ -30,12 +30,13 @@
 
 
 
-x = [20 ,30 , 50 , 40 , 15 , 10]
+# x = [20 ,30 , 50 , 40 , 15 , 10]
 
-i = x[0]
+# i = x[0]
 
-for a in x :
-    if i <= a :
-        i = a 
+# for a in x :
+#     if i <= a :
+#         i = a 
 
-print ("THe Greastest number is " , i)
+# print ("THe Greastest number is " , i)
+
